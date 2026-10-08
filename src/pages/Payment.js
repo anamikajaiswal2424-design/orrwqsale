@@ -330,7 +330,7 @@ export default function Payment() {
       }
     } catch {
       localStorage.removeItem(
-        "pending_payment"
+        "pending_payment");
     localStorage.removeItem(
       "pending_payment"
       );
