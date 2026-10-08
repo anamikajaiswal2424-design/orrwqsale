@@ -1,0 +1,622 @@
+// Data.js se sabhi products aur sabhi colour/storage variants ki complete image arrays.
+// Product / Variant ID match karke image array paste karein.
+
+// ==================================================
+// PRODUCT: Apple iPhone 18 Pro max
+// Product ID: 1 | Colour: Burgundy | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/4/7/-original-imahrazyadggh5tp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/r/q/-original-imahrazykbgdrabz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/h/y/-original-imahr2hgsdvzv7xd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/9/f/0/-original-imahr2hgbcptz3gj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/q/x/-original-imahr2hgjuj4bsm9.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro max
+// Variant ID: 1-1 | Colour: Burgundy | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/4/7/-original-imahrazyadggh5tp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/r/q/-original-imahrazykbgdrabz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/h/y/-original-imahr2hgsdvzv7xd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/9/f/0/-original-imahr2hgbcptz3gj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/q/x/-original-imahr2hgjuj4bsm9.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro max
+// Variant ID: 1-2 | Colour: Black | Storage: 256 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/d/m/d/-original-imahrazydfxvaw2m.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/6/n/-original-imahrazyad9gzupn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/k/w/-original-imahr2kgabyz2zyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/j/x/-original-imahr2kgscgwyja4.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/u/r/-original-imahr2hgnumg62tk.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro max
+// Variant ID: 1-3 | Colour: Silver | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/e/l/-original-imahrazye9jgpgpq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/h/b/t/-original-imahrazyagyrytmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/u/i/-original-imahr2kgczza9u2t.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro max
+// Variant ID: 1-4 | Colour: Glacier | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/z/f/-original-imahrazykz4sznfv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/h/w/-original-imahrazyghgvunv8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/7/j/q/-original-imahr2hgch5yrqcb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: Apple iPhone 18 Pro
+// Product ID: 2 | Colour: Black | Storage: 256 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/d/m/d/-original-imahrazydfxvaw2m.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/6/n/-original-imahrazyad9gzupn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/k/w/-original-imahr2kgabyz2zyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/j/x/-original-imahr2kgscgwyja4.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/u/r/-original-imahr2hgnumg62tk.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro
+// Variant ID: 2-1 | Colour: Black | Storage: 256 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/d/m/d/-original-imahrazydfxvaw2m.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/6/n/-original-imahrazyad9gzupn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/k/w/-original-imahr2kgabyz2zyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/j/x/-original-imahr2kgscgwyja4.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/u/r/-original-imahr2hgnumg62tk.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro
+// Variant ID: 2-2 | Colour: Burgundy | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/4/7/-original-imahrazyadggh5tp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/r/q/-original-imahrazykbgdrabz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/h/y/-original-imahr2hgsdvzv7xd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/9/f/0/-original-imahr2hgbcptz3gj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/q/x/-original-imahr2hgjuj4bsm9.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro
+// Variant ID: 2-3 | Colour: Silver | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/e/l/-original-imahrazye9jgpgpq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/h/b/t/-original-imahrazyagyrytmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/u/i/-original-imahr2kgczza9u2t.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// VARIANT: Apple iPhone 18 Pro
+// Variant ID: 2-4 | Colour: Glacier | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/z/f/-original-imahrazykz4sznfv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/h/w/-original-imahrazyghgvunv8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/7/j/q/-original-imahr2hgch5yrqcb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: iPhone 17 Pro
+// Product ID: 3 | Colour: Blue | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/i/n/-original-imahft5ndwfkx6ez.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/s/s/-original-imahft5nxa9wukz8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/k/m/-original-imahft5nz2k5gfm3.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/p/v/-original-imahft5nch3khzvu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// VARIANT: iPhone 17 Pro
+// Variant ID: 3-1 | Colour: Blue | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/i/n/-original-imahft5ndwfkx6ez.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/s/s/-original-imahft5nxa9wukz8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/k/m/-original-imahft5nz2k5gfm3.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/p/v/-original-imahft5nch3khzvu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// VARIANT: iPhone 17 Pro
+// Variant ID: 3-2 | Colour: Silver | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/j/o/-original-imahft5nm9eewyzh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/k/s/z/-original-imahft5npvyvjyzz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/x/c/-original-imahft5npy3u7mjx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/4/h/-original-imahft5nfrrfygbc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/m/i/-original-imahft5n8nukhmav.jpeg?q=90"
+],
+
+// VARIANT: iPhone 17 Pro
+// Variant ID: 3-3 | Colour: Orange | Storage: 256 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/v/a/-resized-original-imahft5nxmyqndhf.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/l/l/-original-imahft5nzymbfwfh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/f/k/-original-imahft5nzadqmyzz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/s/e/-original-imahft5nbjxjgu6a.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: iPhone 17 Pro Max
+// Product ID: 4 | Colour: Orange color | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/v/m/-resized-original-imahft6chnx2vbuy.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/n/c/-original-imahft6c3rbjysmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/1/p/-original-imahft6cag2fggja.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/o/v/-original-imahft6cvnadukgx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// VARIANT: iPhone 17 Pro Max
+// Variant ID: 4-1 | Colour: Orange color | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/v/m/-resized-original-imahft6chnx2vbuy.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/n/c/-original-imahft6c3rbjysmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/1/p/-original-imahft6cag2fggja.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/o/v/-original-imahft6cvnadukgx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// VARIANT: iPhone 17 Pro Max
+// Variant ID: 4-2 | Colour: Deep Blue | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/r/h/-resized-original-imahft6chdhxfwhj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/u/1/y/-original-imahft6c4hzxwjws.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/a/x/-original-imahft6cggdjcqsv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/v/g/v/-original-imahft6czhmgv3ec.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// VARIANT: iPhone 17 Pro Max
+// Variant ID: 4-3 | Colour: Silver | Storage: 512 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/p/g/-original-imahft6cfwg6yta2.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/r/1/-original-imahft6cqn3ftf4p.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/y/r/-original-imahft6cq9fpa2ch.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/c/5/-original-imahft6cj2bzyfbq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/v/8/-original-imahft6cjegrw5sj.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: iPhone Duo
+// Product ID: 5 | Colour: Night Sky | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/l/f/0/-original-imahr2gqwhppyfnv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/i/t/-original-imahr2gndeptbufg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/5/y/-original-imahr2gnc52ukh3r.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/q/v/-original-imahr2gn5egedqby.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/b/d/-original-imahr2gnqfxg6jjm.jpeg?q=90"
+],
+
+// VARIANT: iPhone Duo
+// Variant ID: 5-1 | Colour: Night Sky | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/l/f/0/-original-imahr2gqwhppyfnv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/i/t/-original-imahr2gndeptbufg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/5/y/-original-imahr2gnc52ukh3r.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/q/v/-original-imahr2gn5egedqby.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/b/d/-original-imahr2gnqfxg6jjm.jpeg?q=90"
+],
+
+// VARIANT: iPhone Duo
+// Variant ID: 5-2 | Colour: Star White | Storage: 1 TB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/k/k/-original-imahr2gn7frppzdu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/i/t/-original-imahr2gndeptbufg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/5/y/-original-imahr2gnc52ukh3r.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/q/v/-original-imahr2gn5egedqby.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/b/d/-original-imahr2gnqfxg6jjm.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: Galaxy Z Fold8 Ultra 5G
+// Product ID: 6 | Colour: Graphite | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/6/5/f/-resized-original-imahpjt4jvnryxsz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/p/o/-original-imahrf5yxc7ewaku.jpeg?q=90"
+],
+
+// VARIANT: Galaxy Z Fold8 Ultra 5G
+// Variant ID: 6-1 | Colour: Graphite | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/6/5/f/-resized-original-imahpjt4jvnryxsz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/p/o/-original-imahrf5yxc7ewaku.jpeg?q=90"
+],
+
+// VARIANT: Galaxy Z Fold8 Ultra 5G
+// Variant ID: 6-2 | Colour: Violet Shadow | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/x/9/-resized-original-imahpjt4kd39a5gg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/p/o/-original-imahrf5yxc7ewaku.jpeg?q=90"
+],
+
+// VARIANT: Galaxy Z Fold8 Ultra 5G
+// Variant ID: 6-3 | Colour: Cream | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/v/t/-resized-original-imahpjt4gaszwnkw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/g/a/z/-original-imahrfyhfrvrp3kg.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: Galaxy Z Fold8 5G
+// Product ID: 7 | Colour: Lavender | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/k/x/j/-original-imahpjt499vz4kbd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
+// VARIANT: Galaxy Z Fold8 5G
+// Variant ID: 7-1 | Colour: Lavender | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/k/x/j/-original-imahpjt499vz4kbd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
+// VARIANT: Galaxy Z Fold8 5G
+// Variant ID: 7-2 | Colour: Cream | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/u/t/s/-resized-original-imahpjt4cggapnkc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
+// VARIANT: Galaxy Z Fold8 5G
+// Variant ID: 7-3 | Colour: Graphite | Storage: 1 TB + 16 GB
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/v/d/u/-original-imahpjt4zzyhyz8q.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Airdopes ProClip OWS Earbuds,Air Conduction Tech,52H Battery,App Support,BTv6.0 Bluetooth Headset (Satin White, True Wireless)
+// Product ID: 8 | Colour: Satin White | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/e/z/-original-imahzfg5kk2pqmyg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/g/e/p/-original-imahzfg4ygypk8j9.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/o/f/-original-imahzfg4phzx4pwt.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/x/3/c/-original-imahzfg5aehsurbb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/w/g/g/-original-imahzfg5daj3ggj7.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes ProClip OWS Earbuds,Air Conduction Tech,52H Battery,App Support,BTv6.0 Bluetooth Headset (Satin White, True Wireless)
+// Variant ID: 8-1 | Colour: Satin White | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/e/z/-original-imahzfg5kk2pqmyg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/g/e/p/-original-imahzfg4ygypk8j9.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/o/f/-original-imahzfg4phzx4pwt.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/x/3/c/-original-imahzfg5aehsurbb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/w/g/g/-original-imahzfg5daj3ggj7.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Airdopes Stride,50H Battery,Quad Mic,ENx, BEAST Mode,Spatial Audio,Multi-Connect Bluetooth Headset (Ash Black, True Wireless)
+// Product ID: 9 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/w/3/k/-original-imahzw42dejbgsps.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/m/t/n/-original-imahzw423zxdynwm.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/s/z/q/-original-imahqfz9emndddhj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/7/k/3/-original-imahzw42ysnyquzb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/h/c/7/-original-imahzw42rgnjgmx4.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes Stride,50H Battery,Quad Mic,ENx, BEAST Mode,Spatial Audio,Multi-Connect Bluetooth Headset (Ash Black, True Wireless)
+// Variant ID: 9-1 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/w/3/k/-original-imahzw42dejbgsps.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/m/t/n/-original-imahzw423zxdynwm.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/s/z/q/-original-imahqfz9emndddhj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/7/k/3/-original-imahzw42ysnyquzb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/h/c/7/-original-imahzw42rgnjgmx4.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes Stride,50H Battery,Quad Mic,ENx, BEAST Mode,Spatial Audio,Multi-Connect Bluetooth Headset (Ash Black, True Wireless)
+// Variant ID: 9-2 | Colour: Silver Haze | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/c/u/f/-original-imahzw42ghrzgqbn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/m/t/n/-original-imahzw423zxdynwm.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/i/g/u/-original-imahzw42eswvgbaz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/0/y/3/-original-imahzw42tgbecd7y.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/z/y/3/-original-imahzw427zgtafjp.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Airdopes Prime Supreme,Spatial Audio,60H Battery,Quad Mic
+// Product ID: 10 | Colour: Red | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/r/y/b/-original-imahpttm2frmxnh2.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/e/9/t/-original-imahpttmmycywrym.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/i/o/j/-original-imahqfu9bhpuvr9k.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/f/u/c/-original-imahpttm5xwc8edx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/e/f/-original-imahqfu9rhf6q8fw.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes Prime Supreme,Spatial Audio,60H Battery,Quad Mic
+// Variant ID: 10-1 | Colour: Red | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/r/y/b/-original-imahpttm2frmxnh2.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/e/9/t/-original-imahpttmmycywrym.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/i/o/j/-original-imahqfu9bhpuvr9k.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/f/u/c/-original-imahpttm5xwc8edx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/e/f/-original-imahqfu9rhf6q8fw.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Rockerz Plus 440,Dual Driver,80H Battery,BEAST Mode,ENx,BT v6.0,IPX4,ASAP Charge Bluetooth Headset (Metal Grey, On the Ear)
+// Product ID: 11 | Colour: Grey | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/m/x/e/-original-imahzv2es2exbgvd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/h/p/-original-imahpq98jefuaknx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/d/c/c/-original-imahzv2epkacavyg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/e/k/s/-original-imahpq98ea4sfh9v.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/u/v/-original-imahzv2e73hknekg.jpeg?q=90"
+],
+
+// VARIANT: boAt Rockerz Plus 440,Dual Driver,80H Battery,BEAST Mode,ENx,BT v6.0,IPX4,ASAP Charge Bluetooth Headset (Metal Grey, On the Ear)
+// Variant ID: 11-1 | Colour: Grey | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/m/x/e/-original-imahzv2es2exbgvd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/h/p/-original-imahpq98jefuaknx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/d/c/c/-original-imahzv2epkacavyg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/e/k/s/-original-imahpq98ea4sfh9v.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/u/v/-original-imahzv2e73hknekg.jpeg?q=90"
+],
+
+// VARIANT: boAt Rockerz Plus 440,Dual Driver,80H Battery,BEAST Mode,ENx,BT v6.0,IPX4,ASAP Charge Bluetooth Headset (Metal Grey, On the Ear)
+// Variant ID: 11-2 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/u/r/3/-original-imahzv2er2fckdsv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/l/h/p/-original-imahpq98jefuaknx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/d/c/c/-original-imahzv2epkacavyg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/d/c/c/-original-imahzv2epkacavyg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/k/u/v/-original-imahzv2e73hknekg.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Rockerz 412, 60H Battery,40ms Latency,ENx, App Support Bluetooth Headset (Active Black, On the Ear)
+// Product ID: 12 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/w/l/7/-original-imahddyjjbggeeah.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/a/i/n/-original-imahddyjjnudywac.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/b/y/y/-original-imahddyjdgczpjur.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/u/x/z/-original-imahddyjcghtgfkc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/9/u/q/-original-imahddyjzmgdbume.jpeg?q=90"
+],
+
+// VARIANT: boAt Rockerz 412, 60H Battery,40ms Latency,ENx, App Support Bluetooth Headset (Active Black, On the Ear)
+// Variant ID: 12-1 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/w/l/7/-original-imahddyjjbggeeah.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/a/i/n/-original-imahddyjjnudywac.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/b/y/y/-original-imahddyjdgczpjur.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/u/x/z/-original-imahddyjcghtgfkc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/9/u/q/-original-imahddyjzmgdbume.jpeg?q=90"
+],
+
+// VARIANT: boAt Rockerz 412, 60H Battery,40ms Latency,ENx, App Support Bluetooth Headset (Active Black, On the Ear)
+// Variant ID: 12-2 | Colour: Army Green | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/o/i/w/-original-imahqcmyprvrfphm.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/8/4/9/-original-imahgnf4qyacggfw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/p/z/f/-original-imahgnf4ehpgwdnw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/s/4/5/-original-imahgnf4ujxkuegh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/j/4/c/-original-imahgnf4dmqbyurh.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Airdopes 181 Pro, 100H Battery, ENx,LED Display, App Support Bluetooth Headset (Lilac Serenity, True Wireless)
+// Product ID: 13 | Colour: Lilac Serenity | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/y/a/f/-original-imahcbyzzq3w6y4f.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/u/l/b/-original-imahfffcjkgfmz5g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/4/b/k/-original-imahfffc9bztxwg5.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/n/k/e/-original-imahfffczsfjf8zt.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/d/j/l/-original-imahfffc5k78gfht.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes 181 Pro, 100H Battery, ENx,LED Display, App Support Bluetooth Headset (Lilac Serenity, True Wireless)
+// Variant ID: 13-1 | Colour: Lilac Serenity | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/y/a/f/-original-imahcbyzzq3w6y4f.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/u/l/b/-original-imahfffcjkgfmz5g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/4/b/k/-original-imahfffc9bztxwg5.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/n/k/e/-original-imahfffczsfjf8zt.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/d/j/l/-original-imahfffc5k78gfht.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes 181 Pro, 100H Battery, ENx,LED Display, App Support Bluetooth Headset (Lilac Serenity, True Wireless)
+// Variant ID: 13-2 | Colour: Frosted Mint | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/n/c/e/-original-imahcbyzmvrceryz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/v/a/i/-original-imahfffcfhqpywrc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/s/t/s/-original-imahfffc9mnbhfam.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/1/b/y/-original-imahfffceyjcfamz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/z/m/t/-original-imahfffcg5s8gvqf.jpeg?q=90"
+],
+
+// VARIANT: boAt Airdopes 181 Pro, 100H Battery, ENx,LED Display, App Support Bluetooth Headset (Lilac Serenity, True Wireless)
+// Variant ID: 13-3 | Colour: Coral Bloom | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/f/n/g/-original-imahcbypbrgtyyz6.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/q/a/c/-original-imahfffcqhbmtedz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/z/z/e/-original-imahfffcfzqfjwbg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/n/i/l/-original-imahfffcsdcpyeyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/headphone/g/n/m/-original-imahfffcud2xmkff.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Partypal 600,Animated Text Display,Wireless Karaoke MIC, LED 220 W Bluetooth Tower Speaker (Premium Black, Mono Channel)
+// Product ID: 14 | Colour: Premium Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/p/g/z/-original-imah9xbnmktheeny.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/r/o/r/-original-imah9xbnc4svhy7b.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/z/c/1/-original-imah9xbny7bwbq9e.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/m/o/c/-original-imah9xbnxjcwvuhq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/n/3/2/-original-imah9xbn8b9rdqsz.jpeg?q=90"
+],
+
+// VARIANT: boAt Partypal 600,Animated Text Display,Wireless Karaoke MIC, LED 220 W Bluetooth Tower Speaker (Premium Black, Mono Channel)
+// Variant ID: 14-1 | Colour: Premium Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/p/g/z/-original-imah9xbnmktheeny.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/r/o/r/-original-imah9xbnc4svhy7b.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/z/c/1/-original-imah9xbny7bwbq9e.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/m/o/c/-original-imah9xbnxjcwvuhq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/n/3/2/-original-imah9xbn8b9rdqsz.jpeg?q=90"
+],
+
+// VARIANT: boAt Partypal 600,Animated Text Display,Wireless Karaoke MIC, LED 220 W Bluetooth Tower Speaker (Premium Black, Mono Channel)
+// Variant ID: 14-2 | Colour: Raven Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/r/o/r/-original-imah9xbnc4svhy7b.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/8/i/7/-original-imahq3gq9v7bzwym.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/v/w/a/-original-imahq3gqpcetrxfc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/g/9/q/-original-imahq3gq4ezekdp8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/5/u/o/-original-imahq3gqhwgx4qyv.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: boAt Stone Arc Pro, Spatial Audio, 58mm Drivers, 12H Battery, RGB LEDs & App Support 25 W Bluetooth Speaker (Raging Black, Mono Channel)
+// Product ID: 15 | Colour: Raging Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/m/w/9/-original-imahezfcsvreqxhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/z/r/3/-original-imahepgyrrywwwzw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/c/h/w/-original-imahezz4vzujytxk.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/a/e/6/-original-imahezz4zgcfu37c.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/s/w/j/-original-imahepgypfrjssge.jpeg?q=90"
+],
+
+// VARIANT: boAt Stone Arc Pro, Spatial Audio, 58mm Drivers, 12H Battery, RGB LEDs & App Support 25 W Bluetooth Speaker (Raging Black, Mono Channel)
+// Variant ID: 15-1 | Colour: Raging Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/m/w/9/-original-imahezfcsvreqxhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/z/r/3/-original-imahepgyrrywwwzw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/c/h/w/-original-imahezz4vzujytxk.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/a/e/6/-original-imahezz4zgcfu37c.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/s/w/j/-original-imahepgypfrjssge.jpeg?q=90"
+],
+
+// VARIANT: boAt Stone Arc Pro, Spatial Audio, 58mm Drivers, 12H Battery, RGB LEDs & App Support 25 W Bluetooth Speaker (Raging Black, Mono Channel)
+// Variant ID: 15-2 | Colour: Groovy Grey | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/g/w/r/-original-imahezz4s4cgzgyz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/s/w/g/-original-imahepgy7jy7bgj6.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/c/h/w/-original-imahezz4vzujytxk.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/q/x/n/-original-imahepgyqygfzckz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/t/i/h/-original-imahezz43wnszuzz.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: Mivi Fort H750 Soundbar, 750 Watts, Audio, 5.1 Channel, Multi-Input & EQ Modes 750 W Bluetooth Soundbar (Black, 5.1 Channel)
+// Product ID: 16 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/7/m/j/-original-imah4gkh2bvpq2er.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/y/g/d/-original-imah4gkhsahsgujw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/b/i/q/-original-imah4gkhrduynkxr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/h/e/z/-original-imah4gkhqhhkube7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/z/a/9/-original-imah4gkhscengfp4.jpeg?q=90"
+],
+
+// VARIANT: Mivi Fort H750 Soundbar, 750 Watts, Audio, 5.1 Channel, Multi-Input & EQ Modes 750 W Bluetooth Soundbar (Black, 5.1 Channel)
+// Variant ID: 16-1 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/7/m/j/-original-imah4gkh2bvpq2er.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/y/g/d/-original-imah4gkhsahsgujw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/b/i/q/-original-imah4gkhrduynkxr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/h/e/z/-original-imah4gkhqhhkube7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/z/a/9/-original-imah4gkhscengfp4.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: Vemax Alpha 160W Bluetooth Twin Tower (Bis Certified) with Karaoke MIC, USB, AUX, FM 160 W Bluetooth Home Theatre (Black, 4.2 Channel)
+// Product ID: 17 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/x/8/v/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8kx7dedqq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/7/o/p/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8zrzgezpz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/m/b/4/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8hjg7wzte.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/u/n/s/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8crjkfpbt.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/x/j/n/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq82krxfzsa.jpeg?q=90"
+],
+
+// VARIANT: Vemax Alpha 160W Bluetooth Twin Tower (Bis Certified) with Karaoke MIC, USB, AUX, FM 160 W Bluetooth Home Theatre (Black, 4.2 Channel)
+// Variant ID: 17-1 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/x/8/v/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8kx7dedqq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/7/o/p/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8zrzgezpz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/m/b/4/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8hjg7wzte.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/u/n/s/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq8crjkfpbt.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/tower-speaker/x/j/n/regal-140w-bluetooth-twin-tower-with-karaoke-mic-support-usb-aux-original-imahjnq82krxfzsa.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: Mivi Fort H350 Soundbar, 350 Watts, 5.1 Channel, Multi-Input and EQ Modes, BT v5.1 350 W Bluetooth Soundbar (Black, 5.1 Channel)
+// Product ID: 18 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/b/0/o/-original-imahrfg2ddwfwwh6.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/e/b/c/-original-imahrfgfazkjaqar.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/h/o/a/-original-imahrfg3hgjsf2vf.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/l/2/v/-original-imahrfgfajumhdfw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/8/4/d/-original-imahrfg2uwp5gfry.jpeg?q=90"
+],
+
+// VARIANT: Mivi Fort H350 Soundbar, 350 Watts, 5.1 Channel, Multi-Input and EQ Modes, BT v5.1 350 W Bluetooth Soundbar (Black, 5.1 Channel)
+// Variant ID: 18-1 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/b/0/o/-original-imahrfg2ddwfwwh6.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/e/b/c/-original-imahrfgfazkjaqar.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/h/o/a/-original-imahrfg3hgjsf2vf.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/l/2/v/-original-imahrfgfajumhdfw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/speaker/8/4/d/-original-imahrfg2uwp5gfry.jpeg?q=90"
+],
+
+// ==================================================
+// PRODUCT: MOTOROLA AmphisoundX Vibe 160 W Bluetooth Soundbar (Black/Metallic grey, 2.1 Channel)
+// Product ID: 19 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/x/g/s/amphisoundx-motorola-original-imag7b6meddjy3we.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/v/m/1/amphisoundx-motorola-original-imag7b6msccyhwbu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/m/k/n/amphisoundx-motorola-original-imag7b6mzsyy5tjz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/f/h/k/amphisoundx-motorola-original-imag7b6mfhwpvdnm.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/l/m/p/amphisoundx-motorola-original-imag7b6mhmz5xpfs.jpeg?q=90"
+],
+
+// VARIANT: MOTOROLA AmphisoundX Vibe 160 W Bluetooth Soundbar (Black/Metallic grey, 2.1 Channel)
+// Variant ID: 19-1 | Colour: Black | Storage: Default
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/x/g/s/amphisoundx-motorola-original-imag7b6meddjy3we.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/v/m/1/amphisoundx-motorola-original-imag7b6msccyhwbu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/m/k/n/amphisoundx-motorola-original-imag7b6mzsyy5tjz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/f/h/k/amphisoundx-motorola-original-imag7b6mfhwpvdnm.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/ku4ezrk0/speaker/soundbar/l/m/p/amphisoundx-motorola-original-imag7b6mhmz5xpfs.jpeg?q=90"
+],
+

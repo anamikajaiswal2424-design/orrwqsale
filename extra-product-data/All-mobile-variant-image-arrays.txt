@@ -1,0 +1,198 @@
+// Apple iPhone 18 Pro max | Burgundy | 512 GB | Variant ID: 1-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/4/7/-original-imahrazyadggh5tp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/r/q/-original-imahrazykbgdrabz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/h/y/-original-imahr2hgsdvzv7xd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/9/f/0/-original-imahr2hgbcptz3gj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/q/x/-original-imahr2hgjuj4bsm9.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro max | Black | 256 GB | Variant ID: 1-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/d/m/d/-original-imahrazydfxvaw2m.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/6/n/-original-imahrazyad9gzupn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/k/w/-original-imahr2kgabyz2zyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/j/x/-original-imahr2kgscgwyja4.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/u/r/-original-imahr2hgnumg62tk.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro max | Silver | 1 TB | Variant ID: 1-3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/e/l/-original-imahrazye9jgpgpq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/h/b/t/-original-imahrazyagyrytmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/u/i/-original-imahr2kgczza9u2t.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro max | Glacier | 512 GB | Variant ID: 1-4
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/z/f/-original-imahrazykz4sznfv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/h/w/-original-imahrazyghgvunv8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/7/j/q/-original-imahr2hgch5yrqcb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro | Black | 256 GB | Variant ID: 2-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/d/m/d/-original-imahrazydfxvaw2m.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/6/n/-original-imahrazyad9gzupn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/k/w/-original-imahr2kgabyz2zyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/j/x/-original-imahr2kgscgwyja4.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/u/r/-original-imahr2hgnumg62tk.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro | Burgundy | 512 GB | Variant ID: 2-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/4/7/-original-imahrazyadggh5tp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/r/q/-original-imahrazykbgdrabz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/h/y/-original-imahr2hgsdvzv7xd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/9/f/0/-original-imahr2hgbcptz3gj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/q/x/-original-imahr2hgjuj4bsm9.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro | Silver | 1 TB | Variant ID: 2-3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/e/l/-original-imahrazye9jgpgpq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/h/b/t/-original-imahrazyagyrytmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/u/i/-original-imahr2kgczza9u2t.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro | Glacier | 512 GB | Variant ID: 2-4
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/z/f/-original-imahrazykz4sznfv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/h/w/-original-imahrazyghgvunv8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/4/a/e/-original-imahr2kgecwrqfqa.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/7/j/q/-original-imahr2hgch5yrqcb.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/o/u/u/-original-imahr2kgftgzkhxu.jpeg?q=90"
+],
+
+// iPhone 17 Pro | Blue | 1 TB | Variant ID: 3-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/i/n/-original-imahft5ndwfkx6ez.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/s/s/-original-imahft5nxa9wukz8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/k/m/-original-imahft5nz2k5gfm3.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/p/v/-original-imahft5nch3khzvu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// iPhone 17 Pro | Silver | 512 GB | Variant ID: 3-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/j/o/-original-imahft5nm9eewyzh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/k/s/z/-original-imahft5npvyvjyzz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/x/c/-original-imahft5npy3u7mjx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/4/h/-original-imahft5nfrrfygbc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/m/i/-original-imahft5n8nukhmav.jpeg?q=90"
+],
+
+// iPhone 17 Pro | Orange | 256 GB | Variant ID: 3-3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/v/a/-resized-original-imahft5nxmyqndhf.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/l/l/-original-imahft5nzymbfwfh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/f/k/-original-imahft5nzadqmyzz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/s/e/-original-imahft5nbjxjgu6a.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// iPhone 17 Pro Max | Orange color | 512 GB | Variant ID: 4-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/v/m/-resized-original-imahft6chnx2vbuy.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/n/c/-original-imahft6c3rbjysmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/1/p/-original-imahft6cag2fggja.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/o/v/-original-imahft6cvnadukgx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// iPhone 17 Pro Max | Deep Blue | 1 TB | Variant ID: 4-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/r/h/-resized-original-imahft6chdhxfwhj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/u/1/y/-original-imahft6c4hzxwjws.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/a/x/-original-imahft6cggdjcqsv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/v/g/v/-original-imahft6czhmgv3ec.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// iPhone 17 Pro Max | Silver | 512 GB | Variant ID: 4-3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/p/g/-original-imahft6cfwg6yta2.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/r/1/-original-imahft6cqn3ftf4p.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/y/r/-original-imahft6cq9fpa2ch.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/c/5/-original-imahft6cj2bzyfbq.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/v/8/-original-imahft6cjegrw5sj.jpeg?q=90"
+],
+
+// iPhone Duo | Night Sky | 1 TB | Variant ID: 5-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/l/f/0/-original-imahr2gqwhppyfnv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/i/t/-original-imahr2gndeptbufg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/5/y/-original-imahr2gnc52ukh3r.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/q/v/-original-imahr2gn5egedqby.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/b/d/-original-imahr2gnqfxg6jjm.jpeg?q=90"
+],
+
+// iPhone Duo | Star White | 1 TB | Variant ID: 5-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/k/k/-original-imahr2gn7frppzdu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/i/t/-original-imahr2gndeptbufg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/5/y/-original-imahr2gnc52ukh3r.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/q/v/-original-imahr2gn5egedqby.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/b/d/-original-imahr2gnqfxg6jjm.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 Ultra 5G | Graphite | 1 TB + 16 GB | Variant ID: 6-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/6/5/f/-resized-original-imahpjt4jvnryxsz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/p/o/-original-imahrf5yxc7ewaku.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 Ultra 5G | Violet Shadow | 1 TB + 16 GB | Variant ID: 6-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/x/9/-resized-original-imahpjt4kd39a5gg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/p/o/-original-imahrf5yxc7ewaku.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 Ultra 5G | Cream | 1 TB + 16 GB | Variant ID: 6-3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/v/t/-resized-original-imahpjt4gaszwnkw.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/g/a/z/-original-imahrfyhfrvrp3kg.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 5G | Lavender | 1 TB + 16 GB | Variant ID: 7-1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/k/x/j/-original-imahpjt499vz4kbd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 5G | Cream | 1 TB + 16 GB | Variant ID: 7-2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/u/t/s/-resized-original-imahpjt4cggapnkc.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 5G | Graphite | 1 TB + 16 GB | Variant ID: 7-3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/v/d/u/-original-imahpjt4zzyhyz8q.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+

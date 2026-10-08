@@ -1,0 +1,165 @@
+.po-section {
+  padding: 22px 15px 24px;
+  background: #fff;
+  color: #383838;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+}
+
+.po-section * {
+  box-sizing: border-box;
+}
+
+.po-section .po-label {
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+}
+
+.po-label b {
+  font-weight: 700;
+}
+
+/* Colour image cards */
+
+.po-colours {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+}
+
+.po-colour {
+  width: 83px;
+  height: 109px;
+  flex: 0 0 83px;
+  border: 2px solid #d7d7d7;
+  border-radius: 18px;
+  padding: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.po-colour img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #f1f1f1;
+}
+
+.po-colour.po-selected {
+  border-color: #222;
+}
+
+/* Storage cards */
+
+.po-section .po-storage-label {
+  margin-top: 22px;
+}
+
+.po-storage {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  overflow-x: auto;
+  padding-bottom: 2px;
+  scrollbar-width: none;
+}
+
+.po-storage::-webkit-scrollbar {
+  display: none;
+}
+
+.po-storage-card {
+  flex: 0 0 158px;
+  min-height: 94px;
+  padding: 10px 15px;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #d5d5d5;
+  border-radius: 16px;
+  font: 13px Arial, Helvetica, sans-serif;
+  color: #444;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.po-storage-card.po-selected {
+  border-color: #444;
+  background: #f5f5f5;
+}
+
+.po-capacity {
+  display: block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #ebebeb;
+  line-height: 19px;
+}
+
+.po-selected .po-capacity {
+  font-weight: 700;
+}
+
+.po-option-price {
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.po-storage-card:disabled {
+  cursor: default;
+  opacity: 1;
+}
+
+.po-unavailable {
+  color: #ff5722;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Product title and price */
+
+.po-section .po-title {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 28px 0 0;
+}
+
+.po-section .po-main-price {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 800;
+  margin: 19px 0 0;
+}
+
+.po-section .po-fee {
+  font-size: 13px;
+  color: #777;
+  line-height: 20px;
+  margin: 5px 0 0;
+}
+
+.po-fee span {
+  font-size: 20px;
+  vertical-align: -1px;
+  margin-left: 5px;
+  color: #999;
+}
+
+.po-section button:focus-visible {
+  outline: 2px solid #1859ec;
+  outline-offset: 2px;
+}
+/* Keep storage capacity and price compact, including inside page buttons. */
+.pd-page .po-section .po-storage-card .po-capacity,
+.pd-page .po-section .po-storage-card .po-option-price,
+.pd-page .po-section .po-storage-card .po-unavailable {
+  font-size: 12px;
+  line-height: 17px;
+}

@@ -1,0 +1,1 @@
+Updated React source project. Install with npm install; start with npm start. Product description snippets and image lists are in extra-product-data; these separate snippets have not been merged into src/Data.js.

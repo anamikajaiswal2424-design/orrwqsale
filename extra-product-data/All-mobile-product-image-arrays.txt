@@ -1,0 +1,63 @@
+// Apple iPhone 18 Pro max | Burgundy | Product ID: 1
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/4/7/-original-imahrazyadggh5tp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/e/r/q/-original-imahrazykbgdrabz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/h/y/-original-imahr2hgsdvzv7xd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/9/f/0/-original-imahr2hgbcptz3gj.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/w/q/x/-original-imahr2hgjuj4bsm9.jpeg?q=90"
+],
+
+// Apple iPhone 18 Pro | Black | Product ID: 2
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/d/m/d/-original-imahrazydfxvaw2m.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/6/n/-original-imahrazyad9gzupn.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/0/k/w/-original-imahr2kgabyz2zyv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/3/j/x/-original-imahr2kgscgwyja4.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/u/r/-original-imahr2hgnumg62tk.jpeg?q=90"
+],
+
+// iPhone 17 Pro | Blue | Product ID: 3
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/i/n/-original-imahft5ndwfkx6ez.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/s/s/-original-imahft5nxa9wukz8.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/k/m/-original-imahft5nz2k5gfm3.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/a/p/v/-original-imahft5nch3khzvu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// iPhone 17 Pro Max | Orange color | Product ID: 4
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/v/m/-resized-original-imahft6chnx2vbuy.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/m/n/c/-original-imahft6c3rbjysmg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/1/p/-original-imahft6cag2fggja.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/b/o/v/-original-imahft6cvnadukgx.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/c/q/-original-imahft5njwbfyz5u.jpeg?q=90"
+],
+
+// iPhone Duo | Night Sky | Product ID: 5
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/l/f/0/-original-imahr2gqwhppyfnv.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/i/t/-original-imahr2gndeptbufg.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/x/5/y/-original-imahr2gnc52ukh3r.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/z/q/v/-original-imahr2gn5egedqby.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/b/d/-original-imahr2gnqfxg6jjm.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 Ultra 5G | Graphite | Product ID: 6
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/6/5/f/-resized-original-imahpjt4jvnryxsz.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/q/x/b/-original-imahpjt4s9hvrqhh.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/5/d/h/-original-imahpjt4vncsebhr.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/t/o/c/-original-imahpjt45q3twf9g.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/y/p/o/-original-imahrf5yxc7ewaku.jpeg?q=90"
+],
+
+// Galaxy Z Fold8 5G | Lavender | Product ID: 7
+"image": [
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/k/x/j/-original-imahpjt499vz4kbd.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/j/r/t/-original-imahpjt4ygdkhwsp.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/f/o/p/-original-imahpjt46hqppsz7.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/n/m/k/-original-imahpjt4vuxxyqfu.jpeg?q=90",
+    "https://rukminim2.flixcart.com/image/1536/1536/xif0q/mobile/c/m/q/-original-imahrf5yyv53cgfq.jpeg?q=90"
+],
+
