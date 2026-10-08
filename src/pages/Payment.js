@@ -213,19 +213,13 @@ export default function Payment() {
       // -------------------------------
       case "gpay":
 
-        redirectUrl =
-          `tez://upi/pay?pa=${encodeURIComponent(
-            upiId
-          )}` +
-          `&pn=${encodeURIComponent(
-            payeeName
-          )}` +
-          `&am=${amount}` +
-          `&cu=INR` +
-          `&tn=${encodeURIComponent(
-            paymentNote
-          )}`;
-
+         redirectUrl = openPhonePe({
+          upiId,
+          amount,
+          paymentNote,
+          payeeName,
+        });
+        
         break;
 
 
