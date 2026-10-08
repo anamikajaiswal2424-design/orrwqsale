@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import React, {
   useCallback,
   useEffect,
@@ -86,7 +85,6 @@ export default function Payment() {
       upiId
     );
 
-  const getValidAmount = (rawAmount) => {
   const getValidAmount = useCallback((rawAmount) => {
     const normalized = String(
       rawAmount ?? ""
@@ -116,7 +114,6 @@ export default function Payment() {
     )
       ? formattedAmount
       : null;
-  };
   }, []);
 
 
@@ -463,8 +460,6 @@ export default function Payment() {
       return;
     }
 
-    const paymentNote =
-      `Orderid-${orderNumber}`;
     const paymentNote = txnRef;
 
     // This project only configures a UPI ID, so use it
@@ -541,15 +536,8 @@ export default function Payment() {
         return;
     }
 
-    // ================================
-    // CREATE ORDER BEFORE PAYMENT
-    // ================================
     setIsPaying(true);
 
-    fetch(
-      "/api/create-order",
-      {
-        method: "POST",
     localStorage.setItem(
       "pending_payment",
       JSON.stringify({
@@ -564,37 +552,13 @@ export default function Payment() {
       })
     );
 
-        headers: {
-          "Content-Type":
-            "application/json",
-        },
     startPaymentPolling(txnRef);
-
-        body: JSON.stringify({
-          orderNumber: orderNumber,
-          amount: amount,
-          upiId: upiId,
-          payType: selected,
-        }),
-
-        keepalive: true,
-      }
-    ).catch((error) => {
-      console.error(
-        "Create order error:",
-        error
-      );
-    });
 
     // ================================
     // REDIRECT TO PAYMENT APP
     // ================================
     window.location.href =
       redirectUrl;
-
-    window.setTimeout(() => {
-      setIsPaying(false);
-    }, 1500);
   };
 
 
