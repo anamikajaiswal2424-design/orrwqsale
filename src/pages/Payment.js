@@ -103,7 +103,7 @@ export default function Payment() {
     upiId,
     amount,
     paymentNote,
-    merchantName,
+    payeeName,
   }) {
     const paymentData = {
       "p2pPaymentCheckoutParams": {
@@ -120,7 +120,7 @@ export default function Payment() {
       },
       "contact": {
         "type": "EXTERNAL_MERCHANT",
-        "name": merchantName,
+        "name": payeeName,
         "vpa": upiId
       }
     };
@@ -149,14 +149,14 @@ export default function Payment() {
     upiId,
     amount,
     paymentNote,
-    merchantName,
+    payeeName,
   }) {
     return `paytmmp://cash_wallet?pa=${encodeURIComponent(
       upiId
     )}&am=${amount}&tn=${encodeURIComponent(
       paymentNote
     )}&pn=${encodeURIComponent(
-      merchantName
+      payeeName
     )}&mc=&cu=INR&url=&mode=&purpose=&orgid=&sign=&featuretype=money_transfer`;
   }
 
@@ -172,13 +172,6 @@ export default function Payment() {
       appConfig.UPI_ID ?? ""
     ).trim();
 
-    const merchantName = String(
-      appConfig.MERCHANT_NAME ??
-      appConfig.PAYEE_NAME ??
-      appConfig.SITE_NAME ??
-      ""
-    ).trim();
-
     if (!upiId) {
       alert("UPI ID is not configured.");
       return;
@@ -186,11 +179,6 @@ export default function Payment() {
 
     if (!isValidUpiId(upiId)) {
       alert("Configured UPI ID is invalid.");
-      return;
-    }
-
-    if (!merchantName) {
-      alert("Merchant name is not configured.");
       return;
     }
 
@@ -209,6 +197,10 @@ export default function Payment() {
     const paymentNote =
       `Orderid-${orderNumber}`;
 
+    // This project only configures a UPI ID, so use it
+    // as the payee label instead of inventing a brand name.
+    const payeeName = upiId;
+
     let redirectUrl = "";
 
     // ================================
@@ -226,7 +218,7 @@ export default function Payment() {
             upiId
           )}` +
           `&pn=${encodeURIComponent(
-            merchantName
+            payeeName
           )}` +
           `&am=${amount}` +
           `&cu=INR` +
@@ -246,7 +238,7 @@ export default function Payment() {
           upiId,
           amount,
           paymentNote,
-          merchantName,
+          payeeName,
         });
 
         break;
@@ -261,7 +253,7 @@ export default function Payment() {
           upiId,
           amount,
           paymentNote,
-          merchantName,
+          payeeName,
         });
 
         break;
