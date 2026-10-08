@@ -1,4 +1,10 @@
 import React, { useEffect, useState } from "react";
+import React, {
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 import Data from "../Data";
 
 import Gpay from "../assets/gpay_icon.svg";
@@ -11,6 +17,22 @@ export default function Payment() {
   const [selected, setSelected] = useState("phonepe");
   const [data, setData] = useState({});
   const [isPaying, setIsPaying] = useState(false);
+
+  const pollTimerRef = useRef(null);
+  const pollBusy = useRef(false);
+  const activeRef = useRef("");
+  const pollStartedAtRef = useRef(0);
+
+  const configuredApiBase = String(
+    window.APP_CONFIG?.API_BASE ?? "/"
+  ).trim();
+
+  const API_BASE = configuredApiBase.endsWith("/")
+    ? configuredApiBase
+    : `${configuredApiBase}/`;
+
+  const PAYMENT_POLL_INTERVAL_MS = 3000;
+  const PAYMENT_POLL_TIMEOUT_MS = 5 * 60 * 1000;
 
   // ================================
   // PAYMENT OPTIONS
@@ -65,6 +87,7 @@ export default function Payment() {
     );
 
   const getValidAmount = (rawAmount) => {
+  const getValidAmount = useCallback((rawAmount) => {
     const normalized = String(
       rawAmount ?? ""
     )
@@ -94,6 +117,250 @@ export default function Payment() {
       ? formattedAmount
       : null;
   };
+  }, []);
+
+
+  // ================================
+  // PAYMENT STATUS POLLING
+  // ================================
+  const stopPaymentPolling = useCallback(() => {
+    if (pollTimerRef.current) {
+      window.clearInterval(
+        pollTimerRef.current
+      );
+      pollTimerRef.current = null;
+    }
+
+    pollBusy.current = false;
+  }, []);
+
+  const checkPayment = useCallback(async (txnRef) => {
+    if (
+      pollBusy.current ||
+      activeRef.current !== txnRef
+    ) {
+      return;
+    }
+
+    if (
+      Date.now() - pollStartedAtRef.current >=
+      PAYMENT_POLL_TIMEOUT_MS
+    ) {
+      stopPaymentPolling();
+      activeRef.current = "";
+      setIsPaying(false);
+      alert(
+        "Payment status could not be confirmed. Please check your UPI app before trying again."
+      );
+      return;
+    }
+
+    pollBusy.current = true;
+
+    try {
+      const response = await fetch(
+        API_BASE + "api/payment/check",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type":
+              "application/x-www-form-urlencoded",
+          },
+          body:
+            "txnRef=" +
+            encodeURIComponent(txnRef),
+          cache: "no-store",
+        }
+      );
+
+      if (!response.ok) {
+        return;
+      }
+
+      const result =
+        await response.json();
+
+      if (
+        !result?.ok ||
+        activeRef.current !== txnRef
+      ) {
+        return;
+      }
+
+      if (result.status === "success") {
+        let record = {};
+
+        try {
+          record = JSON.parse(
+            localStorage.getItem(
+              "pending_payment"
+            )
+          ) || {};
+        } catch {
+          record = {};
+        }
+
+        if (
+          String(record.txnRef ?? "") !==
+          txnRef
+        ) {
+          return;
+        }
+
+        const expectedAmount =
+          getValidAmount(record.amount);
+
+        const confirmedAmount =
+          result.amount
+            ? getValidAmount(result.amount)
+            : expectedAmount;
+
+        if (
+          !expectedAmount ||
+          confirmedAmount !== expectedAmount
+        ) {
+          console.error(
+            "Payment amount verification failed."
+          );
+          return;
+        }
+
+        stopPaymentPolling();
+        activeRef.current = "";
+
+        record.status = "success";
+        record.utr = result.utr || "";
+        record.confirmed_at =
+          new Date().toISOString();
+
+        localStorage.setItem(
+          "completed_order",
+          JSON.stringify(record)
+        );
+
+        localStorage.removeItem(
+          "pending_payment"
+        );
+
+        window.location.replace(
+          "/thankyou"
+        );
+      } else if (
+        result.status === "failure"
+      ) {
+        stopPaymentPolling();
+        activeRef.current = "";
+        setIsPaying(false);
+
+        try {
+          const record = JSON.parse(
+            localStorage.getItem(
+              "pending_payment"
+            )
+          ) || {};
+
+          record.status = "failure";
+          record.failed_at =
+            new Date().toISOString();
+
+          localStorage.setItem(
+            "pending_payment",
+            JSON.stringify(record)
+          );
+        } catch {
+          // Ignore invalid local storage data.
+        }
+
+        alert(
+          "Payment failed or was cancelled. Please try again."
+        );
+      }
+    } catch (error) {
+      console.error(
+        "Payment verification error:",
+        error
+      );
+    } finally {
+      pollBusy.current = false;
+    }
+  }, [
+    API_BASE,
+    getValidAmount,
+    PAYMENT_POLL_TIMEOUT_MS,
+    stopPaymentPolling,
+  ]);
+
+  const startPaymentPolling = useCallback((txnRef) => {
+    stopPaymentPolling();
+
+    activeRef.current = txnRef;
+    pollStartedAtRef.current = Date.now();
+
+    void checkPayment(txnRef);
+
+    pollTimerRef.current =
+      window.setInterval(() => {
+        void checkPayment(txnRef);
+      }, PAYMENT_POLL_INTERVAL_MS);
+  }, [
+    checkPayment,
+    PAYMENT_POLL_INTERVAL_MS,
+    stopPaymentPolling,
+  ]);
+
+  useEffect(() => {
+    try {
+      const pendingPayment = JSON.parse(
+        localStorage.getItem(
+          "pending_payment"
+        )
+      );
+
+      if (
+        pendingPayment?.status === "pending" &&
+        pendingPayment?.txnRef
+      ) {
+        setIsPaying(true);
+        startPaymentPolling(
+          String(pendingPayment.txnRef)
+        );
+      }
+    } catch {
+      localStorage.removeItem(
+        "pending_payment"
+      );
+    }
+
+    const checkWhenVisible = () => {
+      if (
+        document.visibilityState === "visible" &&
+        activeRef.current
+      ) {
+        void checkPayment(
+          activeRef.current
+        );
+      }
+    };
+
+    document.addEventListener(
+      "visibilitychange",
+      checkWhenVisible
+    );
+
+    return () => {
+      document.removeEventListener(
+        "visibilitychange",
+        checkWhenVisible
+      );
+
+      stopPaymentPolling();
+      activeRef.current = "";
+    };
+  }, [
+    checkPayment,
+    startPaymentPolling,
+    stopPaymentPolling,
+  ]);
 
 
   // ================================
@@ -186,6 +453,8 @@ export default function Payment() {
       Math.floor(Math.random() * 900000000) +
       100000000;
 
+    const txnRef = String(orderNumber);
+
     const amount =
       getValidAmount(price);
 
@@ -196,6 +465,7 @@ export default function Payment() {
 
     const paymentNote =
       `Orderid-${orderNumber}`;
+    const paymentNote = txnRef;
 
     // This project only configures a UPI ID, so use it
     // as the payee label instead of inventing a brand name.
@@ -213,13 +483,22 @@ export default function Payment() {
       // -------------------------------
       case "gpay":
 
-         redirectUrl = openPhonePe({
-          upiId,
-          amount,
-          paymentNote,
-          payeeName,
-        });
-        
+        redirectUrl =
+          `tez://upi/pay?pa=${encodeURIComponent(
+            upiId
+          )}` +
+          `&pn=${encodeURIComponent(
+            payeeName
+          )}` +
+          `&am=${amount}` +
+          `&cu=INR` +
+          `&tr=${encodeURIComponent(
+            txnRef
+          )}` +
+          `&tn=${encodeURIComponent(
+            paymentNote
+          )}`;
+
         break;
 
 
@@ -271,11 +550,25 @@ export default function Payment() {
       "/api/create-order",
       {
         method: "POST",
+    localStorage.setItem(
+      "pending_payment",
+      JSON.stringify({
+        txnRef,
+        orderNumber,
+        amount,
+        upiId,
+        payType: selected,
+        status: "pending",
+        created_at:
+          new Date().toISOString(),
+      })
+    );
 
         headers: {
           "Content-Type":
             "application/json",
         },
+    startPaymentPolling(txnRef);
 
         body: JSON.stringify({
           orderNumber: orderNumber,
