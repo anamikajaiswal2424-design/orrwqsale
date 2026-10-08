@@ -328,7 +328,7 @@ export default function Payment() {
       const pendingPayment = JSON.parse(
         localStorage.getItem(
           "pending_payment"
-        );
+        )
     localStorage.removeItem(
       "pending_payment"
     );
@@ -382,6 +382,7 @@ export default function Payment() {
     startPaymentPolling,
     stopPaymentPolling,
   ]);
+  }, [checkPayment, stopPaymentPolling]);
 
 
   // ================================
