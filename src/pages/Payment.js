@@ -131,6 +131,16 @@ export default function Payment() {
     pollBusy.current = false;
   }, []);
 
+  const resetPaymentAttempt = useCallback(() => {
+    stopPaymentPolling();
+    activeRef.current = "";
+    pollStartedAtRef.current = 0;
+    localStorage.removeItem(
+      "pending_payment"
+    );
+    setIsPaying(false);
+  }, [stopPaymentPolling]);
+
   const checkPayment = useCallback(async (txnRef) => {
     if (
       pollBusy.current ||
@@ -146,9 +156,7 @@ export default function Payment() {
       stopPaymentPolling();
       activeRef.current = "";
       setIsPaying(false);
-      localStorage.removeItem(
-        "pending_payment"
-      );
+      resetPaymentAttempt();
       alert(
         "Payment status could not be confirmed. Please check your UPI app before trying again."
       );
@@ -247,13 +255,16 @@ export default function Payment() {
         );
       } else if (
         result.status === "failure"
+        ["failure", "failed"].includes(
+          String(result.status ?? "")
+            .trim()
+            .toLowerCase()
+        )
       ) {
         stopPaymentPolling();
         activeRef.current = "";
         setIsPaying(false);
-        localStorage.removeItem(
-          "pending_payment"
-        );
+        resetPaymentAttempt();
 
         try {
           const record = JSON.parse(
@@ -290,6 +301,7 @@ export default function Payment() {
     API_BASE,
     getValidAmount,
     PAYMENT_POLL_TIMEOUT_MS,
+    resetPaymentAttempt,
     stopPaymentPolling,
   ]);
 
@@ -317,8 +329,12 @@ export default function Payment() {
         localStorage.getItem(
           "pending_payment"
         )
+    localStorage.removeItem(
+      "pending_payment"
+    );
       );
 
+    const checkOnReturn = () => {
       if (
         pendingPayment?.status === "pending" &&
         pendingPayment?.txnRef
@@ -330,9 +346,7 @@ export default function Payment() {
       }
     } catch {
       localStorage.removeItem(
-        "pending_payment");
-    localStorage.removeItem(
-      "pending_payment"
+        "pending_payment"
       );
     }
 
@@ -350,12 +364,14 @@ export default function Payment() {
     document.addEventListener(
       "visibilitychange",
       checkWhenVisible
+      checkOnReturn
     );
 
     return () => {
       document.removeEventListener(
         "visibilitychange",
         checkWhenVisible
+        checkOnReturn
       );
 
       stopPaymentPolling();
