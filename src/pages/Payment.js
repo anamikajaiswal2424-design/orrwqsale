@@ -146,6 +146,9 @@ export default function Payment() {
       stopPaymentPolling();
       activeRef.current = "";
       setIsPaying(false);
+      localStorage.removeItem(
+        "pending_payment"
+      );
       alert(
         "Payment status could not be confirmed. Please check your UPI app before trying again."
       );
@@ -248,6 +251,9 @@ export default function Payment() {
         stopPaymentPolling();
         activeRef.current = "";
         setIsPaying(false);
+        localStorage.removeItem(
+          "pending_payment"
+        );
 
         try {
           const record = JSON.parse(
@@ -325,6 +331,8 @@ export default function Payment() {
     } catch {
       localStorage.removeItem(
         "pending_payment"
+    localStorage.removeItem(
+      "pending_payment"
       );
     }
 
@@ -477,22 +485,12 @@ export default function Payment() {
       // GOOGLE PAY
       // -------------------------------
       case "gpay":
-
-        redirectUrl =
-          `tez://upi/pay?pa=${encodeURIComponent(
-            upiId
-          )}` +
-          `&pn=${encodeURIComponent(
-            payeeName
-          )}` +
-          `&am=${amount}` +
-          `&cu=INR` +
-          `&tr=${encodeURIComponent(
-            txnRef
-          )}` +
-          `&tn=${encodeURIComponent(
-            paymentNote
-          )}`;
+ redirectUrl = openPhonePe({
+          upiId,
+          amount,
+          paymentNote,
+          payeeName,
+        });
 
         break;
 
