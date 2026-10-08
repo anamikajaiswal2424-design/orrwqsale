@@ -153,9 +153,6 @@ export default function Payment() {
       Date.now() - pollStartedAtRef.current >=
       PAYMENT_POLL_TIMEOUT_MS
     ) {
-      stopPaymentPolling();
-      activeRef.current = "";
-      setIsPaying(false);
       resetPaymentAttempt();
       alert(
         "Payment status could not be confirmed. Please check your UPI app before trying again."
@@ -254,36 +251,13 @@ export default function Payment() {
           "/thankyou"
         );
       } else if (
-        result.status === "failure"
         ["failure", "failed"].includes(
           String(result.status ?? "")
             .trim()
             .toLowerCase()
         )
       ) {
-        stopPaymentPolling();
-        activeRef.current = "";
-        setIsPaying(false);
         resetPaymentAttempt();
-
-        try {
-          const record = JSON.parse(
-            localStorage.getItem(
-              "pending_payment"
-            )
-          ) || {};
-
-          record.status = "failure";
-          record.failed_at =
-            new Date().toISOString();
-
-          localStorage.setItem(
-            "pending_payment",
-            JSON.stringify(record)
-          );
-        } catch {
-          // Ignore invalid local storage data.
-        }
 
         alert(
           "Payment failed or was cancelled. Please try again."
@@ -324,33 +298,11 @@ export default function Payment() {
   ]);
 
   useEffect(() => {
-    try {
-      const pendingPayment = JSON.parse(
-        localStorage.getItem(
-          "pending_payment"
-        )
     localStorage.removeItem(
       "pending_payment"
     );
-      );
 
     const checkOnReturn = () => {
-      if (
-        pendingPayment?.status === "pending" &&
-        pendingPayment?.txnRef
-      ) {
-        setIsPaying(true);
-        startPaymentPolling(
-          String(pendingPayment.txnRef)
-        );
-      }
-    } catch {
-      localStorage.removeItem(
-        "pending_payment"
-      );
-    }
-
-    const checkWhenVisible = () => {
       if (
         document.visibilityState === "visible" &&
         activeRef.current
@@ -363,25 +315,18 @@ export default function Payment() {
 
     document.addEventListener(
       "visibilitychange",
-      checkWhenVisible
       checkOnReturn
     );
 
     return () => {
       document.removeEventListener(
         "visibilitychange",
-        checkWhenVisible
         checkOnReturn
       );
 
       stopPaymentPolling();
       activeRef.current = "";
     };
-  }, [
-    checkPayment,
-    startPaymentPolling,
-    stopPaymentPolling,
-  ]);
   }, [checkPayment, stopPaymentPolling]);
 
 
