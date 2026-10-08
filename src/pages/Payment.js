@@ -485,12 +485,22 @@ export default function Payment() {
       // GOOGLE PAY
       // -------------------------------
       case "gpay":
- redirectUrl = openPhonePe({
-          upiId,
-          amount,
-          paymentNote,
-          payeeName,
-        });
+
+        redirectUrl =
+          `tez://upi/pay?pa=${encodeURIComponent(
+            upiId
+          )}` +
+          `&pn=${encodeURIComponent(
+            payeeName
+          )}` +
+          `&am=${amount}` +
+          `&cu=INR` +
+          `&tr=${encodeURIComponent(
+            txnRef
+          )}` +
+          `&tn=${encodeURIComponent(
+            paymentNote
+          )}`;
 
         break;
 
